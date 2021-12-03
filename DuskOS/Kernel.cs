@@ -18,18 +18,18 @@ using CommandSharp.Commands.Users;
 using CommandSharp.Commands.System;
 using Cosmos.HAL.Network;
 using Cosmos.System.Network.IPv4.UDP.DHCP;
-using DuskResearchKernel.CommandSharp.Commands.Network;
-using DuskResearchKernel.System.Modules.Network;
-using DuskResearchKernel.CommandSharp.Commands;
-using DuskResearchKernel.CommandSharp.Commands.Filesystem;
-using DuskResearchKernel.CommandSharp.Commands.System;
-using DuskResearchKernel.System;
-using DuskResearchKernel.System.Registry;
-using DuskResearchKernel.System.Security.Permissions;
+using DuskOS.CommandSharp.Commands.Network;
+using DuskOS.System.Modules.Network;
+using DuskOS.CommandSharp.Commands;
+using DuskOS.CommandSharp.Commands.Filesystem;
+using DuskOS.CommandSharp.Commands.System;
+using DuskOS.System;
+using DuskOS.System.Registry;
+using DuskOS.System.Security.Permissions;
 
 //using DuskResearchKenrel.System.Users;
 
-namespace DuskResearchKernel
+namespace DuskOS
 {
     public class Kernel : Sys.Kernel
     {
