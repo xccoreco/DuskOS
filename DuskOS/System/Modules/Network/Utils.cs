@@ -1,4 +1,13 @@
-﻿using Cosmos.System.Network.IPv4;
+﻿/*
+ * PROJECT:         Dusk Operating System Development
+ * CONTENT          System/Modules/Network/Utils.cs
+ * PROGRAMMERS:     
+ *                  ProfessorDJ/John Welsh <djlw78@gmail.com>
+ * NOTES:
+ *                  This person didn't have a copyright notice but it was Misha
+ */
+
+using Cosmos.System.Network.IPv4;
 using Cosmos.System.Network.IPv4.UDP.DNS;
 
 namespace DuskOS.System.Modules.Network

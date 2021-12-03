@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+ * PROJECT:         Dusk Operating System Development
+ * CONTENT          System/Modules/Network/Clients/NetworkDebugger.cs
+ * PROGRAMMERS:     
+ *                  ProfessorDJ/John Welsh <djlw78@gmail.com>
+ * NOTES:
+ *                  This person didn't have a copyright notice but it was Misha
+ */
+
+using System;
 using System.Text;
 using Cosmos.System.Network.Config;
 using Cosmos.System.Network.IPv4;

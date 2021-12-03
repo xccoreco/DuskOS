@@ -1,6 +1,14 @@
-﻿using System;
+﻿/*
+ * PROJECT:         Dusk Operating System Development
+ * CONTENT          System/Modules/Network/Drivers/RTL8168.cs
+ * PROGRAMMERS:     
+ *                  ProfessorDJ/John Welsh <djlw78@gmail.com>
+ * NOTES:
+ *                  This person didn't have a copyright notice but it was Misha
+ */
+
+using System;
 using System.Collections.Generic;
-using System.Text;
 using Cosmos.Core;
 using Cosmos.HAL;
 using Cosmos.HAL.Network;

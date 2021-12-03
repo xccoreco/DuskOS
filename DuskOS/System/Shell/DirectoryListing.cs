@@ -1,4 +1,15 @@
-﻿using System;
+﻿/*
+* SOURCE:          Aura Operating System Development
+*
+* PROJECT:         Dusk Operating System Development
+* CONTENT          System/Shell/DirectoryListing.cs
+* PROGRAMMERS:
+*                  Valentin Charbonnier <valentinbreiz@gmail.com>
+* EDITORS: 
+*                  ProfessorDJ/John Welsh <djlw78@gmail.com>
+*
+*/
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;

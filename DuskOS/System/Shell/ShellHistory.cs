@@ -1,6 +1,16 @@
-﻿using System;
+﻿/*
+* SOURCE:          Aura Operating System Development
+*
+* PROJECT:         Dusk Operating System Development
+* CONTENT          System/Shell/ShellHistory.cs
+* PROGRAMMERS:
+*                  Valentin Charbonnier <valentinbreiz@gmail.com>
+* EDITORS: 
+*                  ProfessorDJ/John Welsh <djlw78@gmail.com>
+*
+*/
+
 using System.Collections.Generic;
-using System.Text;
 
 namespace DuskOS.System.Shell
 {

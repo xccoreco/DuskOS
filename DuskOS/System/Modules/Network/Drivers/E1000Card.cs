@@ -1,9 +1,17 @@
-﻿using Cosmos.Core;
+﻿/*
+ * PROJECT:         Dusk Operating System Development
+ * CONTENT          System/Modules/Network/Drivers/Intel8254X.cs
+ * PROGRAMMERS:     
+ *                  ProfessorDJ/John Welsh <djlw78@gmail.com>
+ * NOTES:
+ *                  This person didn't have a copyright notice but it was Misha
+ */
+
+using Cosmos.Core;
 using Cosmos.HAL;
 using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
-using System.Text;
 using Cosmos.HAL.Network;
 
 namespace DuskOS.System.Modules.Network.Drivers

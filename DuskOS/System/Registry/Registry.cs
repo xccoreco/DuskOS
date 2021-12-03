@@ -4,10 +4,8 @@
  * PROGRAMMERS:     
  *                  WinMister332/Chris Emberley (cemberley@nerdhub.net)
  */
-using System;
-using System.Collections;
+
 using System.Collections.Generic;
-using System.Text;
 
 namespace DuskOS.System.Registry
 {

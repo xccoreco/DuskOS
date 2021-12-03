@@ -1,5 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
+﻿/*
+ * PROJECT:         Dusk Operating System Development
+ * CONTENT          System/Modules/Network/Clients/HTTPClient.cs
+ * PROGRAMMERS:     
+ *                  ProfessorDJ/John Welsh <djlw78@gmail.com>
+ * NOTES:
+ *                  This person didn't have a copyright notice but it was Misha
+ */
+
+using System;
 using System.Text;
 using Cosmos.System.Network.IPv4;
 using Cosmos.System.Network.IPv4.TCP;

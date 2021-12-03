@@ -1,4 +1,6 @@
 ﻿/*
+ * SOURCE:          Aura Operating System Development
+ *
  * PROJECT:         Dusk Operating System Development
  * CONTENT          System/DebugConsole.cs
  * PROGRAMMERS:     

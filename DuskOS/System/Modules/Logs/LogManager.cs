@@ -1,6 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿/*
+ * PROJECT:         Dusk Operating System Development
+ * CONTENT          System/Log/LogManager.cs
+ * PROGRAMMERS:     
+ *                  ProfessorDJ/John Welsh <djlw78@gmail.com>
+ *
+ */
 
 namespace DuskOS.System.Log
 {

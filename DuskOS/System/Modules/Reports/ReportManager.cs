@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ * PROJECT:         Dusk Operating System Development
+ * CONTENT          System/Modules/Reports/ReportManager.cs
+ * PROGRAMMERS:     
+ *                  ProfessorDJ/John Welsh <djlw78@gmail.com>
+ *
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 using Cosmos.HAL.BlockDevice;
