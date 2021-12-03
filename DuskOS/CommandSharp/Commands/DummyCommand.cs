@@ -1,10 +1,12 @@
 ﻿/*
  * PROJECT:         Dusk Operating System Development
  * CONTENT          CommandSharp/Commands/DummyCommand.cs
- * PROGRAMMERS:     WinMister332/Chris Emberley (cemberley@nerdhub.net)
+ * PROGRAMMERS:
+ *                  WinMister332/Chris Emberley (cemberley@nerdhub.net)
+ *
  */
+
 using System;
-using System.Collections.Generic;
 using System.Text;
 
 namespace CommandSharp.Commands

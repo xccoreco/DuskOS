@@ -10,10 +10,10 @@
  *
  */
 
-using CommandSharp.Commands;
+using DuskOS;
 using DuskOS.System.Utilities;
 
-namespace DuskOS.CommandSharp.Commands.Filesystem
+namespace CommandSharp.Commands.Filesystem
 {
     public class TreeCommand : Command
     {

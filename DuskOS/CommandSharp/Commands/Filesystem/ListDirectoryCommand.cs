@@ -5,11 +5,12 @@
  *                  ProfessorDJ/John Welsh <djlw78@gmail.com>
  *
  */
+
 using System;
-using CommandSharp.Commands;
+using DuskOS;
 using DuskOS.System.Shell;
 
-namespace DuskOS.CommandSharp.Commands.Filesystem
+namespace CommandSharp.Commands.Filesystem
 {
     public class ListDirectoryCommand : Command
     {

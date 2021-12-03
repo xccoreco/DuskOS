@@ -1,9 +1,15 @@
-﻿using DuskOS.System.Utilities;
-using DuskOS.System.Users;
+﻿/*
+* PROJECT:         Dusk Operating System Development
+* CONTENT          CommandSharp/Commands/CommandData.cs
+* PROGRAMMERS:     
+*                  WinMister332/Chris Emberley (cemberley@nerdhub.net)
+*
+*/
 
+using DuskOS.System.Utilities;
+using DuskOS.System.Users;
 using System;
-using System.Collections;
-using System.Collections.Generic;
+
 namespace CommandSharp.Commands
 {
     public sealed class CommandData

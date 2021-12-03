@@ -1,7 +1,14 @@
-﻿using System;
-using CommandSharp.Commands;
+﻿/*
+ * PROJECT:         Dusk Operating System Development
+ * CONTENT          CommandSharp/Commands/System/TimeCommand.cs
+ * PROGRAMMERS:     
+ *                  ProfessorDJ/John Welsh <djlw78@gmail.com>
+ *
+ */
 
-namespace DuskOS.CommandSharp.Commands.System
+using System;
+
+namespace CommandSharp.Commands.System
 {
     public class TimeCommand : Command
     {

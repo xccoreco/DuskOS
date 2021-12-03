@@ -4,11 +4,10 @@
  * PROGRAMMERS:
  *                  WinMister332/Chris Emberley (cemberley@nerdhub.net)
  */
+
 using System;
-using System.Collections.Generic;
 using System.Text;
 using DuskOS;
-using DuskOS.System;
 using DuskOS.System.Users;
 using DuskOS.System.Utilities;
 

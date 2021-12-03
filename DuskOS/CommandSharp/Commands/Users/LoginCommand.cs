@@ -1,5 +1,13 @@
-﻿using DuskOS.System.Users;
+﻿/*
+* PROJECT:         Dusk Operating System Development
+* CONTENT          CommandSharp/Commands/Users/LoginCommand.cs
+* PROGRAMMERS:     
+*                  WinMister332/Chris Emberley (cemberley@nerdhub.net)
+*                  ProfessorDJ/John Welsh <djlw78@gmail.com>
+*
+*/
 
+using DuskOS.System.Users;
 using System.Text;
 
 namespace CommandSharp.Commands.Users

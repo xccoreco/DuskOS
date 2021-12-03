@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ * PROJECT:         Dusk Operating System Development
+ * CONTENT          CommandSharp/Commands/System/RebootCommand.cs
+ * PROGRAMMERS:     
+ *                  ProfessorDJ/John Welsh <djlw78@gmail.com>
+ *
+ */
+
+using System;
 using DuskOS.System.Config;
 
 namespace CommandSharp.Commands.System

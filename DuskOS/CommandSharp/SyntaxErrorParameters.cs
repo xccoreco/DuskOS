@@ -1,6 +1,11 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿/*
+* PROJECT:         Dusk Operating System Development
+* CONTENT          CommandSharp/Commands/SyntaxErrorParameters.cs
+* PROGRAMMERS:     
+*                  WinMister332/Chris Emberley (cemberley@nerdhub.net)
+*
+*/
+
 namespace CommandSharp.Commands
 {
     public class SyntaxErrorParameters

@@ -1,6 +1,13 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿/*
+* PROJECT:         Dusk Operating System Development
+* CONTENT          CommandSharp/Commands/Command.cs
+* PROGRAMMERS:     
+*                  WinMister332/Chris Emberley (cemberley@nerdhub.net)
+*
+*/
+
+using System;
+
 namespace CommandSharp.Commands
 {
     public abstract class Command

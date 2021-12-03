@@ -1,8 +1,15 @@
-﻿using System;
-using CommandSharp.Commands;
+﻿/*
+ * PROJECT:         Dusk Operating System Development
+ * CONTENT          CommandSharp/Commands/System/HashCommand.cs
+ * PROGRAMMERS:     
+ *                  ProfessorDJ/John Welsh <djlw78@gmail.com>
+ *
+ */
+
+using System;
 using DuskOS.System.Security;
 
-namespace DuskOS.CommandSharp.Commands.System
+namespace CommandSharp.Commands.System
 {
     //add hash command
     /*

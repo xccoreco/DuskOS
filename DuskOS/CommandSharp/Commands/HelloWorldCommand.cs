@@ -1,6 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿/*
+* PROJECT:         Dusk Operating System Development
+* CONTENT          CommandSharp/Commands/HelloWorldCommand.cs
+* PROGRAMMERS:     
+*                  WinMister332/Chris Emberley (cemberley@nerdhub.net)
+*
+*/
+
+using System;
 
 namespace CommandSharp.Commands
 {

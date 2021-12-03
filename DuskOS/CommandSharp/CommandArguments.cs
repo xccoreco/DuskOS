@@ -1,8 +1,14 @@
-﻿using System;
-using System.Collections;
+﻿/*
+* PROJECT:         Dusk Operating System Development
+* CONTENT          CommandSharp/Commands/CommandArguments.cs
+* PROGRAMMERS:     
+*                  WinMister332/Chris Emberley (cemberley@nerdhub.net)
+*                  ProfessorDJ/John Welsh <djlw78@gmail.com>
+*/
+
+using System;
 using System.Collections.Generic;
 
-using CommandSharp.Commands;
 namespace CommandSharp.Commands
 {
     public sealed class CommandArguments

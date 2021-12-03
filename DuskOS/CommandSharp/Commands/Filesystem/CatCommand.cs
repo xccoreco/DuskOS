@@ -12,9 +12,9 @@
 
 using System;
 using System.IO;
-using CommandSharp.Commands;
+using DuskOS;
 
-namespace DuskOS.CommandSharp.Commands.Filesystem
+namespace CommandSharp.Commands.Filesystem
 {
     public class CatCommand : Command
     {

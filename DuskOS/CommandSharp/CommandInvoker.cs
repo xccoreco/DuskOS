@@ -1,10 +1,15 @@
-﻿using System;
-using System.Collections;
+﻿/*
+* PROJECT:         Dusk Operating System Development
+* CONTENT          CommandSharp/CommandInvoker.cs
+* PROGRAMMERS:     
+*                  WinMister332/Chris Emberley (cemberley@nerdhub.net)
+*
+*/
+
+using System;
 using System.Collections.Generic;
 
 using CommandSharp.Commands;
-using CommandSharp.Commands.System;
-using CommandSharp.Commands.Users;
 using CommandSharp.Commands.Terminal;
 
 using DuskOS;

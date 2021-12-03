@@ -5,11 +5,12 @@
  *                  ProfessorDJ/John Welsh <djlw78@gmail.com>
  *
  */
+
 using System;
 using System.IO;
-using CommandSharp.Commands;
+using DuskOS;
 
-namespace DuskOS.CommandSharp.Commands.Filesystem
+namespace CommandSharp.Commands.Filesystem
 {
     //possible joined function with rmfile
     public class RmdirCommand : Command

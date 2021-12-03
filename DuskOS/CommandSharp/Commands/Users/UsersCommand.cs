@@ -1,10 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿/*
+ * PROJECT:         Dusk Operating System Development
+ * CONTENT          CommandSharp/Commands/Users/UsersCommand.cs
+ * PROGRAMMERS:     
+ *                  WinMister332/Chris Emberley (cemberley@nerdhub.net)
+ *
+ */
 
+using System;
+using System.Text;
 using DuskOS.System.Users;
 
-namespace CommandSharp.Commands
+namespace CommandSharp.Commands.Users
 {
     public class UsersCommand : Command
     {

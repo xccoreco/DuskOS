@@ -1,9 +1,16 @@
-﻿using System;
-using CommandSharp.Commands;
+﻿/*
+ * PROJECT:         Dusk Operating System Development
+ * CONTENT          CommandSharp/Commands/System/ListDataCommand.cs
+ * PROGRAMMERS:     
+ *                  ProfessorDJ/John Welsh <djlw78@gmail.com>
+ *
+ */
+
+using System;
 using Cosmos.HAL;
 using DuskOS.System.Utilities;
 
-namespace DuskOS.CommandSharp.Commands.System
+namespace CommandSharp.Commands.System
 {
     public class ListDataCommand : Command
     {

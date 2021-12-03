@@ -6,9 +6,9 @@
  *
  */
 
-using CommandSharp.Commands;
+using DuskOS;
 
-namespace DuskOS.CommandSharp.Commands.Filesystem
+namespace CommandSharp.Commands.Filesystem
 {
     public sealed class EditorCommand : Command
     {
@@ -21,7 +21,7 @@ namespace DuskOS.CommandSharp.Commands.Filesystem
             {
                 string file = e.Arguments.GetArgumentAtPosition(0);
 
-                Apps.User.Kate.Startkate(Kernel.currentdir + file);
+                DuskOS.Apps.User.Kate.Startkate(Kernel.currentdir + file);
             }
             return true;
         }

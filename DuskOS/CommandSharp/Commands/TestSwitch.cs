@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Text;
+﻿/*
+ * PROJECT:         Dusk Operating System Development
+ * CONTENT          CommandSharp/Commands/TestSwitch.cs (Test Command)
+ * PROGRAMMERS:     
+ *                  ProfessorDJ/John Welsh <djlw78@gmail.com>
+ *
+ */
+
 using CommandSharp.Commands;
-using Cosmos.System.Network.Config;
-using Cosmos.System.Network.IPv4;
-using Cosmos.System.Network.IPv4.UDP.DNS;
 
 namespace DuskOS.CommandSharp.Commands
 {

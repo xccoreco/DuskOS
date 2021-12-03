@@ -1,5 +1,12 @@
-﻿using System;
+﻿/*
+* PROJECT:         Dusk Operating System Development
+* CONTENT          CommandSharp/Commands/Users/ListPermissions.cs
+* PROGRAMMERS:     
+*                  WinMister332/Chris Emberley (cemberley@nerdhub.net)
+*
+*/
 
+using System;
 using DuskOS.System.Security.Permissions;
 
 namespace CommandSharp.Commands.Users

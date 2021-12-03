@@ -1,5 +1,12 @@
-﻿using System;
+﻿/*
+ * PROJECT:         Dusk Operating System Development
+ * CONTENT          CommandSharp/Commands/System/RegistryCommand.cs
+ * PROGRAMMERS:     
+ *                  ProfessorDJ/John Welsh <djlw78@gmail.com>
+ *                  WinMister332/Chris Emberley (cemberley@nerdhub.net)
+ */
 
+using System;
 using DuskOS;
 
 namespace CommandSharp.Commands.System

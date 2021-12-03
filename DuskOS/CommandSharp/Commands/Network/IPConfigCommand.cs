@@ -1,10 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using CommandSharp.Commands;
+﻿/*
+ * PROJECT:         Dusk Operating System Development
+ * CONTENT          CommandSharp/Commands/Network/IPConfigCommand.cs
+ * PROGRAMMERS:     
+ *                  ProfessorDJ/John Welsh <djlw78@gmail.com>
+ * NOTES:
+ *                  Original offer didn't have copyright but it was Misha
+ */
+
 using DuskOS.System.Modules.Network;
 
-namespace DuskOS.CommandSharp.Commands.Network
+namespace CommandSharp.Commands.Network
 {
     public class IPConfigCommand : Command
     {

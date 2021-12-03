@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ * PROJECT:         Dusk Operating System Development
+ * CONTENT          CommandSharp/Commands/Terminal/EchoCommand.cs
+ * PROGRAMMERS:     
+ *                  WinMister332/Chris Emberley (cemberley@nerdhub.net)
+ *
+ */
+
+using System;
 
 namespace CommandSharp.Commands.Terminal
 {

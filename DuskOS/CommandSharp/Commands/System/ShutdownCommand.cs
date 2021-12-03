@@ -1,4 +1,12 @@
-﻿namespace CommandSharp.Commands.System
+﻿/*
+ * PROJECT:         Dusk Operating System Development
+ * CONTENT          CommandSharp/Commands/System/ShutdownCommand.cs
+ * PROGRAMMERS:     
+ *                  ProfessorDJ/John Welsh <djlw78@gmail.com>
+ *
+ */
+
+namespace CommandSharp.Commands.System
 {
     public class ShutdownCommand : Command
     {

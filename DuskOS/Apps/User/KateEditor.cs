@@ -4,6 +4,7 @@
  * PROGRAMMERS:     
  *                  ProfessorDJ/John Welsh <djlw78@gmail.com>
  *
+ * - update this later, copyright is weird with this one
  */
 
 using System;

@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ * PROJECT:         Dusk Operating System Development
+ * CONTENT          CommandSharp/Commands/Terminal/ClearCommand.cs
+ * PROGRAMMERS:     
+ *                  ProfessorDJ/John Welsh <djlw78@gmail.com>
+ *
+ */
+
+using System;
 
 namespace CommandSharp.Commands.Terminal
 {

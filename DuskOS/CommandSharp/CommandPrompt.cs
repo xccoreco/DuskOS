@@ -1,8 +1,14 @@
-﻿using DuskOS.System.Utilities;
+﻿/*
+* PROJECT:         Dusk Operating System Development
+* CONTENT          CommandSharp/CommandPrompt.cs
+* PROGRAMMERS:     
+*                  WinMister332/Chris Emberley (cemberley@nerdhub.net)
+*
+*/
+
+using DuskOS.System.Utilities;
 
 using System;
-using System.Collections;
-using System.Collections.Generic;
 
 namespace CommandSharp
 {
