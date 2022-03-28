@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "bA2Q7sKHcHOvkRk9nsR700V/SURu7o6Dc/3Will4odAfU11b2gsVPA5Sj8oRAd6/QkqFSJzRrHrSONiet3dAcA==",
+  "success": true,
+  "projectFilePath": "D:\\2022\\DuskOS\\DuskOSDev\\duskos\\source\\DuskOSTMP\\DuskOS_Boot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\djlw7\\.nuget\\packages\\cosmos.build\\0.1.0-localbuild20220209054635\\cosmos.build.0.1.0-localbuild20220209054635.nupkg.sha512",
+    "C:\\Users\\djlw7\\.nuget\\packages\\cosmos.common\\0.1.0-localbuild20220209054647\\cosmos.common.0.1.0-localbuild20220209054647.nupkg.sha512",
+    "C:\\Users\\djlw7\\.nuget\\packages\\cosmos.core\\0.1.0-localbuild20220209054647\\cosmos.core.0.1.0-localbuild20220209054647.nupkg.sha512",
+    "C:\\Users\\djlw7\\.nuget\\packages\\cosmos.debug.kernel\\0.1.0-localbuild20220209054647\\cosmos.debug.kernel.0.1.0-localbuild20220209054647.nupkg.sha512",
+    "C:\\Users\\djlw7\\.nuget\\packages\\cosmos.hal2\\0.1.0-localbuild20220209054647\\cosmos.hal2.0.1.0-localbuild20220209054647.nupkg.sha512",
+    "C:\\Users\\djlw7\\.nuget\\packages\\cosmos.system2\\0.1.0-localbuild20220209054647\\cosmos.system2.0.1.0-localbuild20220209054647.nupkg.sha512",
+    "C:\\Users\\djlw7\\.nuget\\packages\\il2cpu.api\\0.1.0-localbuild20220209054647\\il2cpu.api.0.1.0-localbuild20220209054647.nupkg.sha512"
+  ],
+  "logs": []
+}

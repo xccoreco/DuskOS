@@ -1,0 +1,15 @@
+D:\2022\DuskOS\DuskOSDev\duskos\source\DuskOSTMP\obj\Debug\net5.0\DuskOS_Boot.csproj.AssemblyReference.cache
+D:\2022\DuskOS\DuskOSDev\duskos\source\DuskOSTMP\obj\Debug\net5.0\DuskOS_Boot.GeneratedMSBuildEditorConfig.editorconfig
+D:\2022\DuskOS\DuskOSDev\duskos\source\DuskOSTMP\obj\Debug\net5.0\DuskOS_Boot.AssemblyInfoInputs.cache
+D:\2022\DuskOS\DuskOSDev\duskos\source\DuskOSTMP\obj\Debug\net5.0\DuskOS_Boot.AssemblyInfo.cs
+D:\2022\DuskOS\DuskOSDev\duskos\source\DuskOSTMP\obj\Debug\net5.0\DuskOS_Boot.csproj.CoreCompileInputs.cache
+D:\2022\DuskOS\DuskOSDev\duskos\source\DuskOSTMP\bin\Debug\net5.0\DuskOS_Boot.deps.json
+D:\2022\DuskOS\DuskOSDev\duskos\source\DuskOSTMP\bin\Debug\net5.0\DuskOS_Boot.dll
+D:\2022\DuskOS\DuskOSDev\duskos\source\DuskOSTMP\bin\Debug\net5.0\ref\DuskOS_Boot.dll
+D:\2022\DuskOS\DuskOSDev\duskos\source\DuskOSTMP\bin\Debug\net5.0\DuskOS_Boot.pdb
+D:\2022\DuskOS\DuskOSDev\duskos\source\DuskOSTMP\bin\Debug\net5.0\DuskOSDev.dll
+D:\2022\DuskOS\DuskOSDev\duskos\source\DuskOSTMP\bin\Debug\net5.0\DuskOSDev.pdb
+D:\2022\DuskOS\DuskOSDev\duskos\source\DuskOSTMP\obj\Debug\net5.0\DuskOS_Boot.csproj.CopyComplete
+D:\2022\DuskOS\DuskOSDev\duskos\source\DuskOSTMP\obj\Debug\net5.0\DuskOS_Boot.dll
+D:\2022\DuskOS\DuskOSDev\duskos\source\DuskOSTMP\obj\Debug\net5.0\ref\DuskOS_Boot.dll
+D:\2022\DuskOS\DuskOSDev\duskos\source\DuskOSTMP\obj\Debug\net5.0\DuskOS_Boot.pdb

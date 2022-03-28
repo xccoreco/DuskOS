@@ -1,0 +1,114 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <!--<RuntimeIdentifier>cosmos</RuntimeIdentifier>-->
+        <Platform>cosmos</Platform>
+        <SupportsX86Intrinsics>false</SupportsX86Intrinsics>
+        <SelfContained>True</SelfContained>
+        <BinFormat>ELF</BinFormat>
+        <StackCorruptionDetectionEnabled>True</StackCorruptionDetectionEnabled>
+        <StackCorruptionDetectionLevel>MethodFooters</StackCorruptionDetectionLevel>
+        <Deployment>ISO</Deployment>
+        <DebugEnabled>True</DebugEnabled>
+        <DebugMode>Source</DebugMode>
+        <IgnoreDebugStubAttribute>False</IgnoreDebugStubAttribute>
+        <ISOFile>bin\Debug\net5.0\DuskOS.iso</ISOFile>
+        <CompileVBEMultiboot>False</CompileVBEMultiboot>
+        <ExtractMapFile>False</ExtractMapFile>
+        <VMware_StackCorruptionDetectionEnabled>True</VMware_StackCorruptionDetectionEnabled>
+        <VMware_StackCorruptionDetectionLevel>MethodFooters</VMware_StackCorruptionDetectionLevel>
+        <VMware_Description>Use VMware Player or Workstation to deploy and debug.</VMware_Description>
+        <VMware_Deployment>ISO</VMware_Deployment>
+        <VMware_Launch>VMware</VMware_Launch>
+        <VMware_DebugEnabled>False</VMware_DebugEnabled>
+        <VMware_DebugMode>Source</VMware_DebugMode>
+        <VMware_IgnoreDebugStubAttribute>False</VMware_IgnoreDebugStubAttribute>
+        <VMware_CosmosDebugPort>Serial: COM1</VMware_CosmosDebugPort>
+        <VMware_VisualStudioDebugPort>Pipe: Cosmos\Serial</VMware_VisualStudioDebugPort>
+        <VMware_PxeInterface>192.168.0.8</VMware_PxeInterface>
+        <VMware_EnableGDB>False</VMware_EnableGDB>
+        <VMware_StartCosmosGDB>False</VMware_StartCosmosGDB>
+        <VMware_ISOFile>bin\Debug\net5.0\DuskOS.iso</VMware_ISOFile>
+        <VMware_CompileVBEMultiboot>False</VMware_CompileVBEMultiboot>
+        <VMware_ExtractMapFile>False</VMware_ExtractMapFile>
+        <Bochs_StackCorruptionDetectionEnabled>True</Bochs_StackCorruptionDetectionEnabled>
+        <Bochs_StackCorruptionDetectionLevel>MethodFooters</Bochs_StackCorruptionDetectionLevel>
+        <Bochs_Description>Use Bochs emulator to deploy and debug.</Bochs_Description>
+        <Bochs_Deployment>ISO</Bochs_Deployment>
+        <Bochs_Launch>Bochs</Bochs_Launch>
+        <Bochs_DebugEnabled>True</Bochs_DebugEnabled>
+        <Bochs_DebugMode>Source</Bochs_DebugMode>
+        <Bochs_IgnoreDebugStubAttribute>False</Bochs_IgnoreDebugStubAttribute>
+        <Bochs_CosmosDebugPort>Serial: COM1</Bochs_CosmosDebugPort>
+        <Bochs_VisualStudioDebugPort>Pipe: Cosmos\Serial</Bochs_VisualStudioDebugPort>
+        <Bochs_PxeInterface>192.168.0.8</Bochs_PxeInterface>
+        <Bochs_EnableGDB>False</Bochs_EnableGDB>
+        <Bochs_StartCosmosGDB>False</Bochs_StartCosmosGDB>
+        <Bochs_ISOFile>bin\Debug\net5.0\DuskOS.iso</Bochs_ISOFile>
+        <Bochs_CompileVBEMultiboot>False</Bochs_CompileVBEMultiboot>
+        <Bochs_ExtractMapFile>False</Bochs_ExtractMapFile>
+        <VMwareEdition>Workstation</VMwareEdition>
+        <VMware_VMwareEdition>Workstation</VMware_VMwareEdition>
+        <ISO_StackCorruptionDetectionEnabled>True</ISO_StackCorruptionDetectionEnabled>
+        <ISO_StackCorruptionDetectionLevel>MethodFooters</ISO_StackCorruptionDetectionLevel>
+        <ISO_Description>Creates a bootable ISO image which can be burned to a DVD. After running the selected project, an explorer window will open containing the ISO file. The ISO file can then be burned to a CD or DVD and used to boot a physical or virtual system.</ISO_Description>
+        <ISO_Deployment>ISO</ISO_Deployment>
+        <ISO_Launch>None</ISO_Launch>
+        <ISO_DebugEnabled>True</ISO_DebugEnabled>
+        <ISO_DebugMode>Source</ISO_DebugMode>
+        <ISO_IgnoreDebugStubAttribute>False</ISO_IgnoreDebugStubAttribute>
+        <ISO_CosmosDebugPort>Serial: COM1</ISO_CosmosDebugPort>
+        <ISO_VisualStudioDebugPort>Pipe: Cosmos\Serial</ISO_VisualStudioDebugPort>
+        <ISO_PxeInterface>192.168.0.8</ISO_PxeInterface>
+        <ISO_VMwareEdition>Workstation</ISO_VMwareEdition>
+        <ISO_EnableGDB>False</ISO_EnableGDB>
+        <ISO_StartCosmosGDB>False</ISO_StartCosmosGDB>
+        <ISO_ISOFile>bin\Debug\net5.0\DuskOS.iso</ISO_ISOFile>
+        <ISO_CompileVBEMultiboot>False</ISO_CompileVBEMultiboot>
+        <ISO_ExtractMapFile>False</ISO_ExtractMapFile>
+        <HyperV_StackCorruptionDetectionEnabled>True</HyperV_StackCorruptionDetectionEnabled>
+        <HyperV_StackCorruptionDetectionLevel>MethodFooters</HyperV_StackCorruptionDetectionLevel>
+        <HyperV_Description>Use Hyper-V to deploy and debug.</HyperV_Description>
+        <HyperV_Deployment>ISO</HyperV_Deployment>
+        <HyperV_Launch>HyperV</HyperV_Launch>
+        <HyperV_DebugEnabled>True</HyperV_DebugEnabled>
+        <HyperV_DebugMode>Source</HyperV_DebugMode>
+        <HyperV_IgnoreDebugStubAttribute>False</HyperV_IgnoreDebugStubAttribute>
+        <HyperV_CosmosDebugPort>Serial: COM1</HyperV_CosmosDebugPort>
+        <HyperV_VisualStudioDebugPort>Pipe: CosmosSerial</HyperV_VisualStudioDebugPort>
+        <HyperV_PxeInterface>192.168.0.8</HyperV_PxeInterface>
+        <HyperV_VMwareEdition>Workstation</HyperV_VMwareEdition>
+        <HyperV_EnableGDB>False</HyperV_EnableGDB>
+        <HyperV_StartCosmosGDB>False</HyperV_StartCosmosGDB>
+        <HyperV_ISOFile>bin\Debug\net5.0\DuskOS.iso</HyperV_ISOFile>
+        <HyperV_CompileVBEMultiboot>False</HyperV_CompileVBEMultiboot>
+        <HyperV_ExtractMapFile>False</HyperV_ExtractMapFile>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <EnableGDB>False</EnableGDB>
+        <StartCosmosGDB>False</StartCosmosGDB>
+        <VisualStudioDebugPort>Pipe: Cosmos\Serial</VisualStudioDebugPort>
+        <CosmosDebugPort>Serial: COM1</CosmosDebugPort>
+        <Launch>VMware</Launch>
+        <Profile>VMware</Profile>
+        <Description>Use VMware Player or Workstation to deploy and debug.</Description>
+        <PxeInterface>192.168.0.8</PxeInterface>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+      <DebugEnabled>True</DebugEnabled>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Cosmos.Build" Version="0-*" NoWarn="NU1604" />
+        <PackageReference Include="Cosmos.Debug.Kernel" Version="0-*" NoWarn="NU1604" />
+        <PackageReference Include="Cosmos.System2" Version="0-*" NoWarn="NU1604" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DuskOSDev\DuskOSDev.csproj" />
+    </ItemGroup>
+
+</Project>

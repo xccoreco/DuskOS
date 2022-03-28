@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="DuskSystem\Resources\Cursor.bmp" />
+    <None Remove="DuskSystem\Resources\desert.bmp" />
+    <None Remove="DuskSystem\Resources\EveryMacWallpaper1920.bmp" />
+    <None Remove="DuskSystem\Resources\zap-ext-light16.psf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="DuskSystem\Resources\Cursor.bmp" />
+    <EmbeddedResource Include="DuskSystem\Resources\desert.bmp" />
+    <EmbeddedResource Include="DuskSystem\Resources\EveryMacWallpaper1920.bmp" />
+    <EmbeddedResource Include="DuskSystem\Resources\zap-ext-light16.psf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Cosmos.System2" Version="0-*" NoWarn="NU1604" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="DuskSystem\Resources\Cursor.bmp" />
+  </ItemGroup>
+
+</Project>
