@@ -6,3 +6,5 @@ I will try my best to keep this up to date at least once a week.
 # DuskOS #
 
 ... nothing here yet ...
+
+Semi to full rewrite is taking place.
