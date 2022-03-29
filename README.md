@@ -10,4 +10,4 @@ I will try my best to keep this up to date at least once a week.
 Semi to full rewrite is taking place.
 
 ## Social Links ##
-![Discord Banner 2](https://discordapp.com/api/guilds/930685150046617640/widget.png?style=banner2)
+[Discord](https://discord.gg/Nqt6AqHbsP)
