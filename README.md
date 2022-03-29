@@ -5,6 +5,6 @@ I will try my best to keep this up to date at least once a week.
 
 # DuskOS #
 
-... nothing here yet ...
+![DuskOS](https://github.com/xccoreco/DuskOS/blob/master/duskos001.png)
 
 Semi to full rewrite is taking place.
