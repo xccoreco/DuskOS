@@ -5,6 +5,10 @@ using Cosmos.System.Graphics;
 using Cosmos.System.Graphics.Fonts;
 using DuskOSDev.DuskSystem.Command;
 using DuskOSDev.DuskSystem.Command.Commands;
+using DuskOSDev.DuskSystem.Command.Commands.DuskShell;
+using DuskOSDev.DuskSystem.Command.Commands.Filesystem;
+using DuskOSDev.DuskSystem.Command.Commands.System;
+using DuskOSDev.DuskSystem.Command.Commands.Terminal;
 using DuskOSDev.DuskSystem.Process;
 using DuskOSDev.DuskSystem.Users;
 using System;
@@ -17,21 +21,22 @@ namespace DuskOSDev
     public class Kernel
     {
         #region Applications
+        /*empty for now*/
         #endregion
 
         #region Graphics
-
-        //public static VGAScreen VGAScreen = new VGAScreen();
-
+        /*empty for now*/
         #endregion
 
         #region Resources
-
+        /*empty for now*/
         #endregion
 
         #region Processes
-        private static User user;
-        private static CommandPrompt prompt;
+
+        public static User user;
+        public static CommandPrompt prompt;
+
         #endregion
 
         #region Properties
@@ -39,7 +44,7 @@ namespace DuskOSDev
         public static string ComputerName = "DuskOS";
         public static string CurrentDirectory = @"0:\";
         public static int CurrentPartition = 0;
-        
+
         #endregion
 
         public static void BeforeRun()
@@ -54,17 +59,49 @@ namespace DuskOSDev
             prompt.CurrentUser = "Admin";
             prompt.Debug = false;
 
-            //VGAScreen = new VGAScreen();
-            //VGAScreen.SetGraphicsMode(VGADriver.ScreenSize.Size720x480, ColorDepth.ColorDepth16);
-            //VGAScreen.SetTextMode(VGADriver.TextSize.Size90x60);
-
             #endregion
 
             #region CommandUtils Init
 
+            #region Default
+
             GetInvoker().Register(new CommandHelp());
 
             #endregion
+
+            #region DuskShell
+            /*empty for now*/
+            #endregion
+
+            #region Filesystem
+
+            GetInvoker().Register(new CommandCat());
+            GetInvoker().Register(new CommandCD());
+            GetInvoker().Register(new CommandListDirectory());
+            GetInvoker().Register(new CommandMkdir());
+            GetInvoker().Register(new CommandRmdir());
+            GetInvoker().Register(new CommandRmfile());
+            GetInvoker().Register(new CommandTouch());
+
+            #endregion
+
+            #region System
+
+            GetInvoker().Register(new CommandReboot());
+            GetInvoker().Register(new CommandShutdown());
+            GetInvoker().Register(new CommandSystemInfo());
+
+            #endregion
+
+            #region Terminal
+
+            GetInvoker().Register(new CommandClear());
+            GetInvoker().Register(new CommandEcho());
+
+            #endregion
+
+            #endregion
+
         }
 
         public static void Run()

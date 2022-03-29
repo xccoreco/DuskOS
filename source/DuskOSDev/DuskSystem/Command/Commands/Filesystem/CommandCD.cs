@@ -25,12 +25,39 @@ namespace DuskOSDev.DuskSystem.Command.Commands.Filesystem
                     if (directory == "..")
                     {
                         Directory.SetCurrentDirectory(Kernel.CurrentDirectory);
-                        
+                        var root = DuskFS.GetDirectory(Kernel.CurrentDirectory);
+                        if (Kernel.CurrentDirectory != Kernel.CurrentPartition.ToString() + @":\")
+                        {
+                            Kernel.CurrentDirectory = root.mParent.mFullPath;
+                            Kernel.prompt.CurrentDirectory = Kernel.CurrentDirectory;
+                        }
+                    }
+                    else if (directory == Kernel.CurrentPartition.ToString())
+                    {
+                        Kernel.CurrentDirectory = Kernel.CurrentPartition.ToString() + @":\";
+                        Kernel.prompt.CurrentDirectory = Kernel.CurrentDirectory;
+                    }
+                    else
+                    {
+                        if (Directory.Exists(Kernel.CurrentDirectory + directory))
+                        {
+                            Directory.SetCurrentDirectory(Kernel.CurrentDirectory);
+                            Kernel.CurrentDirectory = Kernel.CurrentDirectory + directory + @"\";
+                            Kernel.prompt.CurrentDirectory = Kernel.CurrentDirectory;
+                        }
+                        else if (File.Exists(Kernel.CurrentDirectory + directory))
+                        {
+                            Console.WriteLine("Error this is a file");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Directory doesn't exist");
+                        }
                     }
                 }
-                catch (Exception e)
+                catch (Exception ex)
                 {
-                    Console.WriteLine(e.Message);
+                    Console.WriteLine(ex.Message);
                 }
             }
             return true;

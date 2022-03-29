@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Cosmos.System.FileSystem;
+using Cosmos.System.FileSystem.Listing;
 using Cosmos.System.FileSystem.VFS;
 
 namespace DuskOSDev.DuskSystem.Common
@@ -312,6 +313,61 @@ namespace DuskOSDev.DuskSystem.Common
         public static bool FolderExists(string folderName)
         {
             return FileSystem.GetDirectory($@"{GetFullPath}\{folderName}") != null;
+        }
+
+        public static DirectoryEntry GetDirectory(string directory)
+        {
+            return FileSystem.GetDirectory(directory);
+        }
+
+        public static void WriteAllText(string fileName, string text)
+        {
+            File.WriteAllText($@"{GetFullPath}\{fileName}", text);
+        }
+
+        public static void MoveFile(string fileName, string destination)
+        {
+            if (!FileExists(fileName))
+            {
+                Console.WriteLine($"File '{fileName}' cannot be found!"); return;
+            }
+
+            if (!FolderExists(destination))
+            {
+                Console.WriteLine($"Folder '{fileName}' cannot be found!"); return;
+            }
+
+            string[] fileContents = GetFileContents(fileName);
+            RemoveFile(fileName);
+            CreateFile($@"{destination}\{fileName}");
+            WriteAllText($@"{destination}\{fileName}", string.Join("\n", fileContents));
+        }
+
+        public static void CopyFile(string fileName, string destination)
+        {
+            if (!FileExists(fileName))
+            {
+                Console.WriteLine($"File '{fileName}' cannot be found!"); return;
+            }
+
+            if (!FolderExists(destination))
+            {
+                Console.WriteLine($"Folder '{fileName}' cannot be found!"); return;
+            }
+
+            string[] fileContents = GetFileContents(fileName);
+            CreateFile($@"{destination}\{fileName}");
+            WriteAllText($@"{destination}\{fileName}", string.Join("\n", fileContents));
+        }
+
+        #endregion
+
+        #region tests
+
+        public static void test()
+        {
+            var root = GetDirectory(Kernel.CurrentDirectory);
+
         }
 
         #endregion

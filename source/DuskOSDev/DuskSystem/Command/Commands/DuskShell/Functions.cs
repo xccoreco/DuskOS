@@ -14,7 +14,7 @@ namespace DuskOSDev.DuskSystem.Command.Commands.DuskShell
     public class CommandTimeout : Command
     {
         //You want these hidden because they are suppose to be shell execusive.
-        private static readonly CommandData data = new CommandData("help", "help command", hideCommand: true);
+        private static readonly CommandData data = new CommandData("timeout", "times out the OS", hideCommand: true);
 
         public CommandTimeout() : base(data) { }
 
